@@ -1,2 +1,5 @@
 Kotlin For Android From
 Zero to Hero
+
+data type and set type
+https://pl.kotl.in/7gJPZ2kew
