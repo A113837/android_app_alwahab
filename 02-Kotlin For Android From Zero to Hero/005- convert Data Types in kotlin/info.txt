@@ -1,0 +1,17 @@
+fun main() {
+    
+    var userName:String?
+    userName = null
+    var userEmail:String?
+    userEmail = null
+    
+    //calling the  signup function
+    
+    userName = "abdalwahab"
+    println(userName)
+    
+    userEmail = "user@user.com"
+    println(userEmail)
+    
+        
+}
