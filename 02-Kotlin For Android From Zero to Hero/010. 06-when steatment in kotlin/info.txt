@@ -1,0 +1,27 @@
+fun main() {
+    
+  //create var to store the status of the  accc
+  //check that var if its true or false
+  
+  var isValid = true
+  when(isValid)
+    {
+        false->
+        {
+            //do anything
+            println("Please verify your acc")
+        }
+        true->
+        {
+            //do anything
+            println("Welcome to the app")
+        }
+        else->
+        {
+            println("not spesified")
+        }
+    }
+  
+    
+        
+}
