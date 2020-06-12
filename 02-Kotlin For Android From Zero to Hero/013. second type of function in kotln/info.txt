@@ -1,0 +1,21 @@
+13. second type of function in kotln
+
+
+fun main() {
+        
+     printName("John")
+     printName("Mike")
+     calNumber(20,7)
+}
+
+fun printName(name:String)
+{
+    println("My name is "+ name)
+}
+
+fun calNumber(numberOne:Int, numberTwo:Int)
+{
+    var sum = numberOne + numberTwo
+    println(sum)
+}
+
