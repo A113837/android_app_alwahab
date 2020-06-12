@@ -1,0 +1,12 @@
+fun main() {
+    
+    //create a progrom to calculate the num of hours in 1 year
+    
+    var daysInYear = 356
+    var hoursInDay = 24
+    var hoursInYear:Int = daysInYear * hoursInDay
+    
+    println(hoursInYear)
+    
+        
+}
