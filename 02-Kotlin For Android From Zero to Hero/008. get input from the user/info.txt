@@ -1,0 +1,14 @@
+8. get input from the user
+
+fun main() {
+    
+   
+    var name = readLine() //create dynamic balue-allow uer to input data 
+    println(name)
+    var age = readLine()
+    var age2 = Integer.valueOf(readLine()) //convert from other input to  int
+    var city = 
+    println(age)
+    
+        
+}
