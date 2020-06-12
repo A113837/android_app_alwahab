@@ -1,0 +1,18 @@
+fun main() {
+    
+    //function 3 main  
+    printName()  
+    
+    printAge()
+}
+
+
+fun printName()
+{
+    println("My name is John")
+}
+
+fun printAge()
+{
+    println("Age is 29")
+}
