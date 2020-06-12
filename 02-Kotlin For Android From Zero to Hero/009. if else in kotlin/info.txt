@@ -1,0 +1,21 @@
+fun main() {
+    
+   //create a program that take the age of the user
+   //check if user more than 18 then print welcome
+   //else print not allowed to use app
+   
+   var age2 = 17
+   var age = Integer.valueOf(readLine()) //8->"8"->8
+    if(age2 > 18)
+    {
+        //print welcome
+        println("Welcome")
+    }
+    else
+    {
+        println("Not allowed to use this apps")
+    }
+    
+    
+        
+}
