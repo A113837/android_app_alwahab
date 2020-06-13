@@ -1,0 +1,26 @@
+//create function that take an array as input andd loop through that array and 
+//showall the items in the console
+
+fun main() {
+    
+    var person = arrayOf("John", "Mike", "Adam", "Bill")
+    showName(person)
+    var number = arrayOf(2,4,545, 231)
+    showNumber(number)
+    
+        
+}
+
+fun showName(names:Array<String>){
+    for (name in names)
+    {
+        println(name)
+    }
+}
+
+fun showNumber(numbers:Array<Int>){
+    for (num in numbers)
+    {
+        println(num)
+    }
+}
