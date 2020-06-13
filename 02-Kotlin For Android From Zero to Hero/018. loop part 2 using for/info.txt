@@ -1,0 +1,14 @@
+fun main() {
+    
+    for(count in 0..5)
+    {
+        
+        for(count2 in 0..3)
+        {
+           print(count2)  
+        }
+        println(count)
+                       
+    }
+        
+}
