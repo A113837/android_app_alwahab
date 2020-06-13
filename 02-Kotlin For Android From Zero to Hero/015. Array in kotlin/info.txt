@@ -1,0 +1,20 @@
+15. Array in kotlin
+
+fun main() {
+    
+   	var nameOne = "John"
+    var nameTwe = "Mike"
+    var nameThree = "Jake"
+    var nameFour = "Neil"
+    
+    var names = arrayOf("John", "Mike", "Jake", "Neil" )
+    var ages = arrayOf(12, 23, 26, 19)
+    
+    println(ages[2])
+    println(names[0] + " " + ages[0])
+    
+    //to update array
+    names[0] = "Adam"
+    println(names[0])
+        
+}
