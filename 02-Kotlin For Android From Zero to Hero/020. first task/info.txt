@@ -1,0 +1,21 @@
+//create function to take two params as input for email and password
+//validate these two values, if they are empy then print value cannot be empty
+//if they are valid, print the info to the reader
+
+fun main() {
+    
+    signUp("user@com", "")
+        
+}
+
+fun signUp(email:String, password:String){
+    if( email == "" || password == "")
+    {
+        println("Please fill up the empty info!")
+    }
+    else
+    {
+    	println("Your email is: " + email + ". Your password is: " + password)    
+    }
+}
+
