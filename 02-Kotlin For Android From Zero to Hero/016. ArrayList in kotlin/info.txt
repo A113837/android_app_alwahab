@@ -1,0 +1,19 @@
+16. ArrayList in kotlin
+
+fun main() {
+    
+    var namesOld = arrayOf(1, 2, 3)
+    var names = ArrayList<String>()
+    
+    names.add("John")
+    names.add("Nour")
+    names.add("Adam")
+    
+    println(names[0])
+    println(names)
+    names.removeAt(0)
+    println(names)
+   
+    
+        
+}
