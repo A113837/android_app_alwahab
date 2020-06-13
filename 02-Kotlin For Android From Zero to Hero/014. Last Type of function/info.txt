@@ -1,0 +1,15 @@
+fun main() {
+    
+    println(calNumber(7,3))
+    println(name("John"))
+        
+}
+
+fun calNumber(numOne:Int, numTwo:Int):Int
+{
+	return numOne * numTwo    
+}
+
+fun name(name:String):String{
+    return("Welcome "+name)
+}
